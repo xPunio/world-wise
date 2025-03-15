@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    color: #fff;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.nav :global(.active) {
+    color: green;
+}
+
+:global(.test) {
+    background-color: red;
+}
